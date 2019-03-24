@@ -1,5 +1,8 @@
 {
   "name": "my-app",
+  "engines": {
+    "node": "10.x"
+  },
   "scripts": {
     "start": "node index.js",
     "playground": "prisma playground",
@@ -25,5 +28,10 @@
     "semi": false,
     "singleQuote": true,
     "trailingComma": "all"
-  }
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
 }
