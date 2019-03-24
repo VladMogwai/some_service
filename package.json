@@ -21,5 +21,8 @@
   "homepage": "https://github.com/alan345/naperg#readme",
   "dependencies": {
     "concurrently": "4.1.0"
+  },
+  "engines": {
+    "node": "11.x"
   }
 }
