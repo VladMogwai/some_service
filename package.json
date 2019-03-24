@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "concurrently --kill-others \"cd server && npm run start\" \"cd media && npm run start\"  \"cd react && npm start\"",
+    "build": "\"cd server && docker-compose up -d\" \"cd server && prisma deploy\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
