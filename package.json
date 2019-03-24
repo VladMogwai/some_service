@@ -4,8 +4,7 @@
   "description": "<div align=\"center\"><strong>N</strong>ode <strong>A</strong>pollo <strong>P</strong>risma <strong>E</strong>xpress <strong>R</strong>eact <strong>G</strong>raphQL </div>",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently --kill-others \"cd server && npm run start\" \"cd media && npm run start\"  \"cd react && npm start\"",
-    "build": "\"cd server && docker-compose up -d\" \"cd server && prisma deploy\"",
+    "start": "concurrently --kill-others \"cd server && docker-compose up -d\" \"cd server && prisma deploy\" \"cd server && npm run start\" \"cd media && npm run start\"  \"cd react && npm start\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
